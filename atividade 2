@@ -1,0 +1,20 @@
+    media: real
+
+    // Leitura da média do aluno
+    Escreva("Digite a média do aluno: ")
+    Leia(media)
+
+    // Verificação se a média é válida
+    Enquanto (media < 0) ou (media > 10) Faça
+        Escreva("Média inválida. Digite novamente: ")
+        Leia(media)
+    FimEnquanto
+
+    // Verificação da aprovação ou reprovação do aluno
+    Se media >= 7 Então
+        Escreva("Aluno aprovado com média ", media)
+    Senão
+        Escreva("Aluno reprovado com média ", media)
+    FimSe
+
+FimAlgoritmo
