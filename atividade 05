@@ -1,0 +1,19 @@
+
+
+var
+numInicial, numFinal: inteiro
+i: inteiro
+
+
+inicio
+escreva("Digite o número inicial: ")
+leia(numInicial)
+escreva("Digite o número final: ")
+leia(numFinal)
+para i <- numInicial ate numFinal faca
+   escreval'(i, " ")
+fimpara
+
+
+fimalgoritmo
+
