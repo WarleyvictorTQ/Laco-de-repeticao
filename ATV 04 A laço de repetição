@@ -1,0 +1,17 @@
+var
+numero, soma: inteiro
+i: inteiro
+
+
+inicio
+soma <- 0
+para i <- 1 ate 5 faca
+   escreva("Digite o ", i, "º número: ")
+   leia(numero)
+se (numero > 0) entao
+   soma <- soma + numero
+fimse
+fimpara
+escreval("A soma dos números positivos é: ", soma)
+
+fimalgoritmo
