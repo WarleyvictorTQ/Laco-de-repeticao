@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Atividade 03 media
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/04/2023
+Var
+
+media: real
+
+inicio
+
+repita
+escreva("Digite a média do aluno: ")
+leia(media)
+ate (media >= 0) e (media <= 10 )
+escreval ("a mèdia e: ", media)
+
+se (media >= 7) entao
+    escreval("Aluno aprovado!")
+senao
+    escreval("Aluno reprovado.")
+fimse
+fimalgoritmo
