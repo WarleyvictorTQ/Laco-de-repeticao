@@ -1,0 +1,17 @@
+
+
+var
+numero: inteiro
+contNegativos: inteiro
+i: inteiro
+inicio
+   contNegativos <- 0
+para i <- 1 ate 5 faca
+   escreva("Digite o ", i, "º número: ")
+   leia(numero)
+se (numero < 0) entao
+    contNegativos <- contNegativos + 1
+fimse
+fimpara
+escreval("A quantidade de números negativos é: ", contNegativos)
+fimalgoritmo
